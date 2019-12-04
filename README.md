@@ -19,7 +19,7 @@ The apps will run on http://localhost:4200 and http://localhost:4201 by default 
 
 ## Configure Glue42 Desktop
 
-Copy the `angular-example.json` file to the Glue42 Desktop apps configuration folder, which is located at
+Copy the `ng-glue42-examples.json` file to the Glue42 Desktop apps configuration folder, which is located at
 ```
 %localappdata%\Tick42\GlueDesktop\config\apps
 ```
