@@ -8,6 +8,22 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 npm install @glue42/desktop @glue42/ng-glue
 ```
 
+## Running
+
+```
+ng serve
+```
+The app will run on http://localhost:4200 by default unless the 4200 port is occupied.
+
+## Configure Glue42 Desktop
+
+Copy the `angular-example.json` file to the Glue42 Destop apps configuration folder, which is located at
+```
+%localappdata%\Tick42\GlueDesktop\config\apps
+```
+
+* This demo app uses the @glue42/ng-glue package, which is described below:
+
 ## Importing the Glue42 NgModule
 
 Once installed NgGlue42Module needs to be imported and the static method **withConfig** to be invoked with an optional configuration. **withConfig** inits an instance of glue library:
@@ -61,15 +77,3 @@ export class MyComponent implements OnInit {
 ## Build
 
 * Run `npm run prepublish` to build the project and prepare it for publishing. The build artifacts will be stored in the `dist/` directory, along with a .tgz archive representing the package as it would be published.
-
-## Publishing
-
-Go to the dist folder `cd dist/ng-glue42` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ng-glue42` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
