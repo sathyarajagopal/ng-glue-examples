@@ -1,80 +1,173 @@
-Glue42 Demo and Sample source code Terms and Conditions Last updated September 5, 2018
+# GLUE42 SAMPLE AND DEMO CODE LICENSE AGREEMENT
 
-Thank you for choosing Glue42
+## IMPORTANT NOTICE
 
-The Glue42 Demo and Sample source code (“Software”) is provided by Tick42 OOD (a Bulgarian registered company –
-“Tick42”) in order to help You evaluate Glue42 and/or produce Your own applications. Use of the Software requires that
-You have a valid licence for Glue42 Enterprise (“Glue42 Licence”).
-
-By using our Software, you are agreeing to these Terms of Use (“Terms”). If you are using the Software on behalf of an
-organization or entity (“Organization”), then you are agreeing to these Terms on behalf of the Organization. In that
-case, “you” and “your” may refer to the Organization. Please read these Terms carefully before you start using our
+**PLEASE READ THIS SOFTWARE LICENSE AGREEMENT CAREFULLY BEFORE YOU BEGIN USING
+THE SOFTWARE MADE AVAILABLE TO YOU.**  
+These terms and conditions entered into by you and Tick42 OOD ("Tick42") are
+referred to as the “Agreement” and govern your use of Tick42 sample and/or demo
+code (the “Software”) made available to you.  
+By accepting these terms, you are agreeing on behalf of yourself or the entity
+on whose behalf you are obtaining the Software (“Licensee”) that Licensee will
+be bound by and become a party to this Agreement and certifying that you have
+the authority to bind Licensee. If Licensee does not agree to all of the terms
+of this Agreement or if you do not have the authority to bind Licensee to this
+Agreement, do not install or use the Software for any reason.  
+Unless and until Licensee has agreed to be bound by all of the terms of this
+Agreement, Licensee is not authorized to access or use the Software. The
+"Effective Date" of this Agreement is the date you first obtain a copy of the
 Software.
 
-                                        Licence Grant
+## 1. Scope of License and Related Terms.
 
-Subject to the Terms and conditions set forth, Tick42 grants to the Organization and the Organization accepts a
-royalty-free license to use the Software provided that You have a valid Glue42 Licence and the Software will only be
-run within Glue42 (the “Evaluation”).
+### 1.1. License Grant.
 
-The initial term of this license is the term of Your Glue42 Licence.
+Tick42 grants to Licensee a non-exclusive, revocable and non-transferable right
+to: (a) use the Software in conjunction with Licensee’s duly-licensed use of
+Glue42 for Licensee’s internal business purposes, (b) produce improvements,
+enhancements, and modification ("Modifications") of the Software, (c)
+incorporate the Software and Modifications into applications for the purpose of
+enabling those applications to interface with Glue42 (such an application being
+a "Licensed Application"), and (d) distribute the Software and Modifications to
+third parties in conjunction with Licensed Applications.
 
-                                    Evaluation Restrictions
+### 1.2. Third-Party Software.
 
-You may not sub-license, distribute, publish, transfer, rent, lease or otherwise make available the Trial to any third
-parties. To the fullest extent permitted by applicable law, you may not disassemble, decompile or “unlock”, decode or
-otherwise reverse translate or engineer, or attempt in any manner to reconstruct or discover any source code or
-underlying algorithms of the Trial that is provided to you in object code form only. Under no circumstances may any
-portion of the Trial’s source code or any modified version of the source code be distributed, disclosed or otherwise
-made available to any third party.
+The Software incorporates third-party software, including open source software,
+the use of which is governed by the applicable terms and conditions specified
+by such third parties (collectively, "Third-Party Software").
 
-You may not circumvent any technical limitations included in the Trial for example time limited licences. You may not
-use the Software as a whole, or any of its components, as a basis for creation of another software product that has the
-same or similar functionality as the Software.
+### 1.3. Use Restrictions.
 
-                                    Changes to the Terms of Use
+Licensee shall not, directly or indirectly:
 
-From time to time, Tick42 may modify existing Terms and/or update these Terms with additional terms that apply to the
-Evaluation. You should stop using the Evaluation and the Software if you don’t accept the changes, and delete all copies
-of the Software and any derived works that may have been produced.
+- (a) except as part of a Licensed Application, sublicense, resell, rent,
+  lease, distribute, market, commercialize, or otherwise transfer the Software
+  or any Modification, or any rights therein;
+- (b) remove or alter any copyright, trademark or proprietary notice in the
+  Software;
+- (c) modify the Software to interface with any software that competes with or
+  provides substantially the same functionality as Glue42;
+- (d) use the Software for the purpose of building a competitive product or
+  service or copying its features or user interface; or
+- (e) use the Software, or permit it to be used, for purposes of product
+  benchmarking or other comparative analysis intended for publication without
+  Tick42’s prior written consent.
 
-                                        Using Our Software
+### 1.4. Feedback.
 
-You must follow any policies made available to you within the Software. You may only use our Software as permitted by
-law. Tick42 may investigate and/or suspend or terminate your Evaluation at any time if we find your use of our Software
-violates the Terms and/or any policies.
+Licensee may, from time to time, provide suggestions, Modifications, feature
+requests, or other feedback to Tick42 with respect to the Software
+(collectively, "Feedback"). Licensee agrees that all Feedback is provided
+voluntarily and that Tick42 shall be free to use, disclose, reproduce, license
+or otherwise distribute and exploit the Feedback in its discretion, without
+restriction.
 
-Using our Software does not grant you ownership of any intellectual property rights in our Software or any other
-material supplied with the Evaluation or the content you may have access to. The Terms do not grant you the right to
-use any branding or logos used in our Evaluation. Our Software may display some logos, trademarks, or branding
-materials that is not the property of Tick42. These types of content are the sole responsibility of the entity that
-makes it available.
+## 2. Proprietary Rights.
 
-You must not abuse and/or misuse the Evaluation, including but not limited to, doing the following things:
-•	Using the Evaluation for any unlawful purposes or activities;
-•	Uploading any content in violation of any applicable law, including but not limited to, intellectual property laws
-and publicity laws;
+Tick42 and its licensors own and retain all right, title, and interest,
+including all intellectual property rights, in and to the Software and any
+Modifications. Except for the rights expressly granted in this Agreement,
+Licensee shall acquire no rights, express or implied, in or to the Software, and
+all rights not expressly provided to Licensee hereunder are reserved by Tick42
+and its licensors. All the copies of the Software provided or made available
+hereunder are licensed, not sold. As between Tick42 and Licensee, Licensee shall
+otherwise retain all right, title, and interest in Licensed Applications.
 
-Tick42, at its sole discretion, will determine abuse and/or misuse of the Evaluation.
+## 3. Term and Termination.
 
-                                Limited Liability for our Software
+Unless otherwise terminated in accordance with this section, this Agreement will
+remain in effect until terminated according to this Section. Tick42 may
+immediately terminate this Agreement if Licensee materially breaches this
+Agreement. Licensee may terminate this agreement without cause at any time. Upon
+termination of this Agreement, all licenses granted herein will automatically
+terminate, and Licensee will discontinue all use of the Software and return to
+Tick42 or destroy any copies of the Software and any Modifications in its
+possession. Sections 1.3, 1.4, 2, 4, and 5 of this Agreement shall survive
+termination or expiration of the Agreement.
 
-The Software is available “as is”. You expressly understand and agree that:
-Tick42 and its partners, licensors employees and agents will not be responsible for any lost profits, revenues, other
-financial losses or data under any circumstances.
-Your use of the Software is at your sole risk.
-You will not access the Tick42 web site or use the Evaluation to collect any market research for a competing business.
+## 4. Indemnification; Disclaimer of Warranties; Limitation of Liability.
 
-                                    Tick42 does not warrant that:
+### 4.1 Indemnification by Licensee.
 
-The Software will meet all of your requirements at all times.
-The Software will be error-free and all errors in the Software will be corrected
+Licensee agrees to hold harmless and indemnify Tick42 and its subsidiaries,
+affiliates, officers, agents, employees, advertisers, licensors, suppliers, and
+partners from and against any third-party claim arising from or in any way
+related to Licensee’s breach of this Agreement, use of the Software, or
+violation of applicable laws, rules or regulations in connection with the
+Software, including any liability or expense arising from all claims, losses,
+damages (actual and consequential), suits, judgments, litigation costs and
+attorneys' fees, of every kind and nature. In such a case, Tick42 will provide
+Licensee with written notice of such claim, suit or action.
 
-                                            Support
+### 4.2. Disclaimer of Warranties.
 
-During the Evaluation you will have access to developer documentation, knowledge base articles and tutorials.
+THE SOFTWARE IS PROVIDED TO LICENSEE ON AN “AS IS” BASIS. ALL CONDITIONS,
+REPRESENTATIONS AND WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR
+OTHERWISE, ARE HEREBY DISCLAIMED TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE
+LAW, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTY OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
 
-                                          Termination
+### 4.3. Limitation on Damages.
 
-At the end of the Evaluation, you must permanently delete all copies of the Software and any derived works produced
-from your access to the Software.
+EXCEPT FOR A BREACH BY LICENSEE OF SECTIONS 1.1, 1.3, OR 4, IN NO EVENT SHALL
+EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY LOST PROFITS OR REVENUE OR FOR
+ANY INDIRECT, SPECIAL, COVER, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL DAMAGES,
+ARISING UNDER THIS AGREEMENT AND WHETHER OR NOT SUCH PARTY HAS BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING DISCLAIMER SHALL NOT APPLY TO THE
+EXTENT PROHIBITED BY APPLICABLE LAW. IN NO EVENT SHALL TICK42’s AGGREGATE
+LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT, WHETHER IN CONTRACT, TORT
+OR UNDER ANY OTHER THEORY OF LIABILITY, EXCEED \$100.
+
+## 5. General.
+
+### 5.1. United States Government Users.
+
+The Software was fully developed at private expense and are commercial computer
+software as defined in FAR 2.101. Any related documentation, technical data, or
+services are also commercial. In accordance with FAR 12.212 and DFARS 227.7202,
+all rights conferred in the Software, related documentation, technical data,
+services, or any deliverable to the United States Government are specified in
+this Agreement. All other uses are prohibited and no ownership rights are
+conferred.
+
+### 5.2. Assignment.
+
+Licensee may not assign any of its rights or obligations under this Agreement,
+whether by operation of law or otherwise, without the prior written consent of
+Tick42. Subject to the foregoing, this Agreement shall bind and inure to the
+benefit of the parties, their respective successors and permitted assigns. Any
+attempted assignment in breach of this Section shall be void.
+
+### 5.3. Relationship of the Parties.
+
+Tick42 and Licensee are independent contractors, and nothing in this Agreement
+or any attachment hereto will create any partnership, joint venture, agency,
+franchise, sales representative, or employment relationship between the parties.
+
+### 5.4. Choice of Law and Jurisdiction.
+
+This Agreement will be governed by and construed in accordance with the laws of
+the United Kingdom, excluding its conflicts of law provisions. The parties agree
+that the United Nations Convention on Contracts for the International Sale of
+Goods will not apply to this Agreement.
+
+### 5.5. Manner of Giving Notice.
+
+Notices regarding this Agreement shall be in writing and addressed to Licensee
+at the address Licensee provides, or, in the case of Tick42, when addressed to
+Tick42 OOD, Attn. Legal Department, 31 Alexander Malinov Blvd., Sofia, 1729,
+Bulgaria. Notices regarding the Software in general may be given by electronic
+mail to Licensee’s e-mail address on record with Tick42.
+
+### 5.6. Entire Agreement; Other Terms.
+
+This Agreement constitutes the entire agreement of the parties relating to the
+subject matter hereof. No waiver or amendment of any provision of this Agreement
+shall be effective unless made in writing and signed by both parties. The
+failure of either party to enforce its rights under this Agreement at any time
+for any period shall not be construed as a waiver of such rights. If any
+provision of this Agreement is held invalid or unenforceable, the remainder of
+this Agreement will continue in full force and effect and the invalid or
+unenforceable provision shall be reformed to the extent necessary to make it
+valid and enforceable.
