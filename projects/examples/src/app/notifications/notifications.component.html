@@ -1,0 +1,65 @@
+<div class="notifications-container">
+  <div class="buttons-list">
+    <div class="row mb-3">
+      <div class="col-12">
+        <button
+          *ngIf="(toggleButton | async) === false"
+          type="button"
+          class="btn btn-primary btn-lg btn-block"
+          (click)="start()"
+        >
+          Start Notification on 3 seconds
+        </button>
+
+        <button
+          *ngIf="(toggleButton | async) === true"
+          type="button"
+          class="btn btn-danger btn-lg btn-block"
+          (click)="stop()"
+        >
+          Stop
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <button
+          type="button"
+          class="btn btn-success btn-block"
+          (click)="raiseLowNotification()"
+        >
+          Raise Low
+        </button>
+      </div>
+
+      <div class="col-3">
+        <button
+          type="button"
+          class="btn btn-primary btn-block"
+          (click)="raiseMediumNotification()"
+        >
+          Raise Medium
+        </button>
+      </div>
+      <div class="col-3">
+        <button
+          type="button"
+          class="btn btn-warning btn-block"
+          (click)="raiseHighNotification()"
+        >
+          Raise High
+        </button>
+      </div>
+      <div class="col-3">
+        <button
+          type="button"
+          class="btn btn-danger btn-block"
+          (click)="raiseCriticalNotification()"
+        >
+          Raise Critical
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

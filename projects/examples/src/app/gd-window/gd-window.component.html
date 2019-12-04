@@ -1,0 +1,58 @@
+
+  <p>gain control over: </p>
+
+  <div class="mb-4">
+    <button type="button" class="btn btn-primary" (click)="selectWindow(my)">this window</button> or
+    <div class="btn-group mr-3">
+      <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+        <button class="btn btn-outline-primary" ngbDropdownToggle (click)='loadWindows()'>one of</button>
+        <div class="dropdown-menu" ngbDropdownMenu>
+          <button *ngFor="let window of windows" ngbDropdownItem (click)="selectWindow(window)">{{window.name}}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="window">
+    <div class="card mb-4">
+      <div class="card-body">
+        <span>Selected window: <strong>{{window.name}} {{window.id === my.id ? '(this window)' : ''}}</strong></span>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <p>Get notified for events:</p>
+      <form [formGroup]="eventListenersForm">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" formControlName="focus">
+          <label class="form-check-label" for="inlineCheckbox1">focus toggling</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" formControlName="bounds">
+          <label class="form-check-label" for="inlineCheckbox2">bounds changing</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" formControlName="maximize">
+          <label class="form-check-label" for="inlineCheckbox3">maximizing</label>
+        </div>
+      </form>
+    </div>
+    <div class="mb-4">
+      <p>Change some settings:</p>
+      <form [formGroup]="settingsFrom">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">frame color</span>
+          </div>
+          <input type="text" class="form-control" formControlName="color" placeholder="color or hex">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">title</span>
+          </div>
+          <input type="text" class="form-control" formControlName="title" placeholder="window title">
+        </div>
+      </form>
+    </div>
+  </div>
+

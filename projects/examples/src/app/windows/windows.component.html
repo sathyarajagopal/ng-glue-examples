@@ -1,0 +1,41 @@
+<form [formGroup]="openWindowForm" (submit)="openWindow()">
+  <div class="row">
+    <div class="input-group mb-3 col-5">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">window name</span>
+      </div>
+      <input formControlName="name" type="text" class="form-control">
+    </div>
+    <div class="input-group mb-3 col-5">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">url</span>
+      </div>
+      <input formControlName="url" type="text" class="form-control">
+    </div>
+    <div class="col-2">
+      <button type="submit" class="btn btn-primary w-100">create window</button>
+    </div>
+  </div>
+</form>
+
+<div class="mb-4">
+  <p>Get notified for events:</p>
+  <form [formGroup]="eventListenersForm">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" formControlName="windowOpen">
+      <label class="form-check-label" for="inlineCheckbox1">open windows</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" formControlName="windowClosed">
+      <label class="form-check-label" for="inlineCheckbox2">closed windows</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" formControlName="windowGotFocus">
+      <label class="form-check-label" for="inlineCheckbox3">window gets focused</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" formControlName="windowLostFocus">
+      <label class="form-check-label" for="inlineCheckbox4">window loses focus</label>
+    </div>
+  </form>
+</div>

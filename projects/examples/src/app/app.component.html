@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-sm navbar-primary sticky-top">
+  <a class="navbar-brand" href="#"><img src="assets/acme-logo.svg" height="30" alt="ACME"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item" *ngFor="let item of menu">
+        <a class="nav-link" routerLink="/{{item.path}}" routerLinkActive="active text-primary"
+          [routerLinkActiveOptions]="{ exact: true }" href="#">{{item.name}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="demo-content mt-4 mr-4 ml-4">
+  <router-outlet></router-outlet>
+</div>

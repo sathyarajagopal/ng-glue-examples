@@ -1,0 +1,41 @@
+[
+  {
+    "title": "NgGlue42 Examples",
+    "type": "window",
+    "name": "ng-glue42-examples",
+    "details": {
+      "url": "http://localhost:4200",
+      "width": 800,
+      "height": 600,
+      "allowCollapse": false,
+      "startLocation": "center"
+    },
+    "allowMultiple": false
+  },
+  {
+    "title": "NgGlue42 Clients",
+    "type": "window",
+    "name": "ng-glue42-clients",
+    "details": {
+      "url": "http://localhost:4201/#/clients",
+      "width": 500,
+      "height": 400,
+      "allowCollapse": false,
+      "startLocation": "center"
+    },
+    "allowMultiple": false
+  },
+  {
+    "title": "NgGlue42 Portfolio",
+    "type": "window",
+    "name": "ng-glue42-portfolio",
+    "details": {
+      "url": "http://localhost:4201/#/portfolio",
+      "width": 500,
+      "height": 400,
+      "allowCollapse": false,
+      "startLocation": "center"
+    },
+    "allowMultiple": false
+  }
+]
