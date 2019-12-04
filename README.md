@@ -11,9 +11,11 @@ npm install
 ## Running
 
 ```
-ng serve
+npm run start:examples
+npm run start:clients-portfolio
+
 ```
-The app will run on http://localhost:4200 by default unless the 4200 port is occupied.
+The apps will run on http://localhost:4200 and http://localhost:4201 by default unless the respective ports are already taken.
 
 ## Configure Glue42 Desktop
 
