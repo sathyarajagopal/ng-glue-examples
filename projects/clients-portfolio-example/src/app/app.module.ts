@@ -16,14 +16,9 @@ import { routing } from './app.routing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export const glueConfig: Glue42.Config = {
-  agm: true,
-  layouts: {
-    mode: 'full'
-  },
+  layouts: 'full',
   windows: true,
-  appManager: {
-    mode: 'full'
-  }
+  appManager: 'full'
 };
 
 
